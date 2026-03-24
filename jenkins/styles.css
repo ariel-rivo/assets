@@ -1,0 +1,36 @@
+:root {
+  --header-height: 1.75rem;
+}
+
+/* Pipeline graph adjustments */
+#main-panel .app-build__grid > #graph {
+  height: 8rem !important;
+}
+
+.PWGx-PipelineGraph-container {
+  margin: 2% 0 0 -1.5rem;
+}
+
+.react-transform-component.transform-component-module_content__FBWxo {
+  scale: 0.7;
+}
+
+/* Reset card heights */
+.app-build__grid > * {
+  height: unset !important;
+  min-height: unset !important;
+  margin-bottom: 2%;
+}
+
+/* Responsive console output height */
+@media (max-width: 999.98px) {
+  .app-build__grid .jenkins-card__content .app-console-output-widget {
+    max-height: 50rem;
+  }
+}
+
+/* Hide verbose pipeline nodes */
+.pipeline-annotated,
+.pipeline-new-node {
+  display: none;
+}
