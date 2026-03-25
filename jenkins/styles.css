@@ -15,18 +15,19 @@
   scale: 0.7;
 }
 
-/* Reset card heights */
+/* Reset card heights and spacing */
 .app-build__grid > * {
   height: unset !important;
   min-height: unset !important;
   margin-bottom: 2%;
 }
 
-/* Responsive console output height */
-@media (max-width: 999.98px) {
-  .app-build__grid .jenkins-card__content .app-console-output-widget {
-    max-height: 50rem;
-  }
+/* Console widget height */
+.app-build__grid .jenkins-card__content .app-console-output-widget {
+  max-height: 50rem; /* or 300px if desired */
+  margin: 0 -1rem -1rem;
+  padding: 0 1rem 1rem;
+  overflow-y: auto;
 }
 
 /* Hide verbose pipeline nodes */
