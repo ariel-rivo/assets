@@ -1,3 +1,18 @@
 .sidebar__logo__character {
-  content: url(https://cdn.jsdelivr.net/gh/ariel-rivo/assets@main/argocd/argologo.svg);
+  content: url(https://cdn.jsdelivr.net/gh/ariel-rivo/assets@main/argocd/logo.png) !important;
+  width: 75px;
+}
+
+.sidebar__logo-container {
+  margin-right: -35px;
+}
+
+.sidebar__logo__text-logo {
+  content: url(https://cdn.jsdelivr.net/gh/ariel-rivo/assets@main/argocd/argologo.svg) !important;
+}
+
+.login__logo img {
+  content: url(https://cdn.jsdelivr.net/gh/ariel-rivo/assets@main/argocd/argologo.svg) !important;
+  height: 48px !important;
+  width: auto !important;
 }
