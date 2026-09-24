@@ -26,6 +26,7 @@
   content: url(https://cdn.jsdelivr.net/gh/ariel-rivo/assets@main/argocd/logo.png) !important;
   width: 50px;
   order: 3;
+  margin-top: 0.5rem;
 }
 
 .sidebar__logo__text-logo {
