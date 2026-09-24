@@ -1,10 +1,26 @@
-.sidebar__logo__character {
-  content: url(https://cdn.jsdelivr.net/gh/ariel-rivo/assets@main/argocd/logo.png) !important;
-  width: 75px;
+.sidebar__logo {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar__collapse-button {
+  align-self: flex-end;
+  margin-top: -1em;
+  margin-bottom: 4em;
 }
 
 .sidebar__logo-container {
-  margin-right: -35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.sidebar__logo__character {
+  content: url(https://cdn.jsdelivr.net/gh/ariel-rivo/assets@main/argocd/logo.png) !important;
+  width: 75px;
+  order: 3;
 }
 
 .sidebar__logo__text-logo {
